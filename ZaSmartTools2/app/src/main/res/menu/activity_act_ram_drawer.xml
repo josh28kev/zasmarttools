@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ram_int"
+            android:icon="@drawable/ic_interna_24dp"
+            android:title="Memoria Interna" />
+        <item
+            android:id="@+id/nav_ram_ext"
+            android:icon="@drawable/ic_sd_storage_24dp"
+            android:title="Memoria Externa" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_ram_menu"
+                android:icon="@drawable/ic_menu_24dp"
+                android:title="Menú Principal" />
+
+        </menu>
+    </item>
+
+
+</menu>

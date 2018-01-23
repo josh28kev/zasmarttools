@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.keffe_000.zasmarttools.act_principal"
+    android:background="@drawable/fondohd">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPr1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imguno"
+        android:layout_marginTop="06dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envío/recepción de datos de aplicaciones"
+        android:id="@+id/textViewPr1"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/imageButtonPr1"
+        android:layout_toRightOf="@+id/imageButtonPr1"
+        android:layout_toEndOf="@+id/imageButtonPr1"
+        android:layout_marginLeft="8dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPr2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imgdos"
+        android:layout_marginTop="106dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de datos almacenados"
+        android:id="@+id/textViewPr2"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/imageButtonPr2"
+        android:layout_toRightOf="@+id/imageButtonPr2"
+        android:layout_toEndOf="@+id/imageButtonPr2"
+        android:layout_marginLeft="8dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPr3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imgtres"
+        android:layout_marginTop="206dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detección de luz y brillo del dispositivo"
+        android:id="@+id/textViewPr3"
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignTop="@+id/imageButtonPr3"
+        android:layout_toRightOf="@+id/imageButtonPr3"
+        android:layout_toEndOf="@+id/imageButtonPr3"
+        android:layout_marginLeft="8dp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPr4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/imgcuatro"
+        android:layout_marginTop="306dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Análisis de memoria consumida"
+        android:id="@+id/textViewPr4"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/imageButtonPr4"
+        android:layout_toRightOf="@+id/imageButtonPr4"
+        android:layout_toEndOf="@+id/imageButtonPr4"
+        android:layout_marginLeft="8dp"
+        android:textAlignment="center" />
+</RelativeLayout>

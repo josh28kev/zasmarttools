@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keffe_000.zasmarttools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".act_principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".act_ram"
+            android:label="@string/title_activity_act_ram"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".act_interna"
+            android:label="@string/title_activity_act_interna"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".act_externa"
+            android:label="@string/title_activity_act_externa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".act_integrantes" />
+        <activity android:name=".Actividad01" />
+        <activity android:name=".Act_aplicaciones" />
+        <activity android:name=".Act_aplicaciones_datos" />
+        <activity android:name=".act_trafico_datos" />
+        <activity android:name=".Act_trafico_datos"></activity>
+    </application>
+
+</manifest>

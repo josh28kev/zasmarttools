@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.keffe_000.zasmarttools.act_integrantes">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="116230643"
+        android:id="@+id/textViewIntCed1"
+        android:layout_below="@+id/imageViewInt1"
+        android:layout_alignLeft="@+id/imageViewInt1"
+        android:layout_alignStart="@+id/imageViewInt1"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="116680978"
+        android:id="@+id/textViewIntCed2"
+        android:layout_below="@+id/imageViewInt2"
+        android:layout_alignLeft="@+id/imageViewInt2"
+        android:layout_alignStart="@+id/imageViewInt2"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="207590446"
+        android:id="@+id/textViewIntCed3"
+        android:layout_below="@+id/imageViewInt3"
+        android:layout_alignLeft="@+id/imageViewInt3"
+        android:layout_alignStart="@+id/imageViewInt3"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kevin Morales Marín"
+        android:id="@+id/textViewIntNom1"
+        android:textSize="20dp"
+        android:layout_below="@+id/textViewIntCed1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="José Pablo Solano Morgan"
+        android:id="@+id/textViewIntNom2"
+        android:textSize="20dp"
+        android:layout_below="@+id/textViewIntCed2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="José Pablo Zamora Rodríguez"
+        android:id="@+id/textViewIntNom3"
+        android:textSize="20dp"
+        android:layout_below="@+id/textViewIntCed3"
+        android:layout_alignLeft="@+id/textViewIntCed3"
+        android:layout_alignStart="@+id/textViewIntCed3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInt1"
+        android:src="@drawable/kmm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="06dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInt2"
+        android:src="@drawable/jpsm"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textViewIntNom1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInt3"
+        android:src="@drawable/jpzr"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textViewIntNom2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

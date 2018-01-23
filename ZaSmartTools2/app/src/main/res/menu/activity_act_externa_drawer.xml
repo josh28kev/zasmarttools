@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ext_ram"
+            android:icon="@drawable/ic_ram_24dp"
+            android:title="Memoria RAM" />
+        <item
+            android:id="@+id/nav_ext_int"
+            android:icon="@drawable/ic_interna_24dp"
+            android:title="Memoria Interna" />
+
+    </group>
+
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/nav_ext_menu"
+                android:icon="@drawable/ic_menu_24dp"
+                android:title="Menú Principal" />
+
+        </menu>
+    </item>
+
+</menu>
